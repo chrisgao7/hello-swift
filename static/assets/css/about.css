@@ -1,0 +1,137 @@
+.headingBox{ 
+  background-color: #333333;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.intor {
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content {
+  height: 800px;
+  color: #000000;
+  background-color: #ffffff; 
+}
+
+.content1 {
+  height: 800px;
+  background-color: #f2f2f2;
+}
+
+
+.commonTitle {
+  padding-top: 80px;
+  font-size: 36px;
+  font-weight: 400;
+  color: #333;
+  line-height: 50px;
+}
+
+.commonSubTitle{
+  margin: 20px auto 54px;
+  text-align: center;
+  font-size: 16px;
+  color: #777;
+  line-height: 24px;
+}
+
+.innerTitle {
+ text-align: center;
+}
+
+.imgBox {
+  margin: 5% 5% 5% 5%;
+}
+
+.imgBox ul li {
+  float: left;
+  width: 600px;
+  height: 500px;
+}
+ 
+.imgBox ul .rightImg {
+  margin-left: 20px;
+  color: #ffffff;
+}
+
+.imgBox ul .leftImg {
+  color: #ffffff;
+}
+
+.imgBox ul .boxImgFive, 
+.imgBox ul .boxImgOne, 
+.imgBox ul .boxImgSix, 
+.imgBox ul .boxImgTwo {
+  width: 280px;
+  height: 260px;
+  display: inline-block;
+}
+
+.imgBox ul .boxImgFour,
+.imgBox ul .boxImgThree {
+  padding-left: 13px;
+  margin-bottom: 20px;
+  width: 590px;
+  height: 240px;
+}
+
+.imgSize1 {
+  border-radius: 20px;
+  width: 546px;
+  height: 240px;
+}
+
+.imgSize {
+  border-radius: 20px;
+  width: 260px;
+  height: 240px;
+}
+
+.p3Tab {
+  margin: 0% 5% 0% 5%;
+
+}
+
+.p3Tab>ul {
+  width: 1080px;
+  padding: 0 60px;
+  margin: 0 auto;
+}
+
+.p3Tab>ul li {
+  width: 160px;
+  height: 50px;
+  line-height: 50px;
+  list-style: none;
+  margin-right: 50px;
+  display: inline-block;
+  font-size: 20px;
+  color: #777;
+  font-weight: 400;
+  cursor: pointer;
+  background: #ebebeb;
+  border-radius: 25px;
+}
+
+.description {
+  width: 800px;
+  height: 400px;
+  margin: 5% 18% 0% 18%;
+  background-color: #777;
+  color: #000000;
+  border-radius: 25px;
+  text-align: center;
+  padding: 5% 0% 5% 0%;
+}
+
+.footerBox {
+  height: 300px;
+  margin-bottom: 0px;
+  background-color: #333333;
+}
+
