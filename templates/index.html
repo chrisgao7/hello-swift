@@ -20,27 +20,42 @@
     <link rel="stylesheet" href="../static/assets/css/carousel.css" />
     <link rel="stylesheet" href="../static/assets/css/cover.css" />
     <link rel="stylesheet" href="../static/assets/css/index.css" />
+    <link rel="stylesheet" href="../static/assets/css/navbar.css" />
   </head>
 
   <!-- NAVBAR -->
   <body>
-    <div class="navbar-wrapper">
+    <nav class="navbar navbar-modified navbar-fixed-top">
       <div class="container">
-        <div class="masthead">
-          <div class="inner">
-            <h3 class="masthead-brand">超能小象</h3>
-            <nav>
-              <ul class="masthead-nav">
-                <li class="active"><a href=".">首页</a></li>
-                <li><a href="course.html">课程</a></li>
-                <li><a href="about.html">选择我们</a></li>
-                <li><a href="contect.html">联系我们</a></li>
-              </ul>
-            </nav>
-          </div>
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">超能小象</a>
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#example-navbar-collapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="sr-only">切换导航</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div
+          class="collapse navbar-collapse pull-right"
+          id="example-navbar-collapse"
+        >
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">首页</a></li>
+            <li><a href="course.html">课程</a></li>
+            <li><a href="about.html">选择我们</a></li>
+            <li><a href="contect.html">联系我们</a></li>
+          </ul>
         </div>
       </div>
-    </div>
+    </nav>
 
     <!-- Carousel -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -121,17 +136,17 @@
     </div>
     <!-- /.carousel -->
 
-    
     <!-- Three columns of text below the carousel -->
     <div class="row headingBox">
       <h1>超能小象 带你飞翔</h1>
       <p style="padding-top: 20px;">
-        超能小象少儿编程(Super Eli Coding)是一家扎根于大湾区的少儿编程教育机构，其主理人高宇超老师是北师港浸大（UIC）计算机科学与技术的在职教师。<br>
-        超能小象少儿编程背靠峰悦教育集团（IHD）。该集团公司遍布广深珠三地，有着丰富的国际化教育背景。超能小象作为全国唯一一家中英双语教学的少儿编<br>
+        超能小象少儿编程(Super Eli
+        Coding)是一家扎根于大湾区的少儿编程教育机构，其主理人高宇超老师是北师港浸大（UIC）计算机科学与技术的在职教师。<br />
+        超能小象少儿编程背靠峰悦教育集团（IHD）。该集团公司遍布广深珠三地，有着丰富的国际化教育背景。超能小象作为全国唯一一家中英双语教学的少儿编<br />
         程教育机构，拥有国际化教育资源为其保驾护航。
       </p>
       <div class="intor">
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-4 col-sm-4" >
           <img
             class="img-circle"
             src="../img/图层 6.png"
@@ -141,10 +156,10 @@
           />
           <h2>课程</h2>
           <p>
-            Donec sed odio dui. Etiam porta sem malesuada magna mollis
-            euismod. Nullam id dolor id nibh ultricies vehicula ut id elit.
-            Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-            Praesent commodo cursus magna.
+            Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.
+            Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo
+            risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo
+            cursus magna.
           </p>
           <p>
             <a class="btn btn-default" href="#" role="button"
@@ -154,7 +169,7 @@
         </div>
         <!-- /.col-lg-4 -->
 
-        <div class="col-lg-4 containerHeading">
+        <div class="col-lg-4 col-md-4 col-sm-4 containerHeading">
           <img
             class="img-circle"
             src="../img/图层 6.png"
@@ -176,7 +191,7 @@
           </p>
         </div>
         <!-- /.col-lg-4 -->
-        <div class="col-lg-4 containerHeading">
+        <div class="col-lg-4 col-md-4 col-sm-4 containerHeading">
           <img
             class="img-circle"
             src="../img/图层 6.png"
@@ -187,9 +202,9 @@
           <h2>联系</h2>
           <p>
             Donec sed odio dui. Cras justo odio, dapibus ac facilisis in,
-            egestas eget quam. Vestibulum id ligula porta felis euismod
-            semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-            condimentum nibh, ut fermentum massa justo sit amet risus.
+            egestas eget quam. Vestibulum id ligula porta felis euismod semper.
+            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum
+            nibh, ut fermentum massa justo sit amet risus.
           </p>
           <p>
             <a class="btn btn-default" href="#" role="button"
@@ -205,7 +220,7 @@
     <!-- START THE FEATURETTES -->
     <div class="container">
       <div class="row content">
-        <div class="col-md-7 itemInContent">
+        <div class="col-md-7 col-sm-7 itemInContent">
           <h2 class="featurette-heading">
             为什么学习编程
             <span class="text-muted">It'll blow your mind.</span>
@@ -217,7 +232,7 @@
             commodo.
           </p>
         </div>
-        <div class="col-md-5 itemInContent">
+        <div class="col-md-5 col-sm-5 itemInContent">
           <img
             class="featurette-image img-responsive center-block inforImg"
             src="../img/图层 6.png"
@@ -227,7 +242,7 @@
       </div>
 
       <div class="row content1">
-        <div class="col-md-7 col-md-push-5 itemInContent">
+        <div class="col-md-7 col-sm-7 col-md-push-5 col-sm-push-5 itemInContent">
           <h2 class="featurette-heading">
             Oh yeah, it's that good.
             <span class="text-muted">See for yourself.</span>
@@ -239,7 +254,7 @@
             commodo.
           </p>
         </div>
-        <div class="col-md-5 col-md-pull-7 itemInContent">
+        <div class="col-md-5 col-sm-5 col-md-pull-7 col-sm-pull-7 itemInContent">
           <img
             class="featurette-image img-responsive center-block inforImg"
             src="../img/图层 6.png"
@@ -249,7 +264,7 @@
       </div>
 
       <div class="row content">
-        <div class="col-md-7 itemInContent">
+        <div class="col-md-7 col-sm-7 itemInContent">
           <h2 class="featurette-heading">
             And lastly, this one. <span class="text-muted">Checkmate.</span>
           </h2>
@@ -260,7 +275,7 @@
             commodo.
           </p>
         </div>
-        <div class="col-md-5 itemInContent">
+        <div class="col-md-5 col-sm-5 itemInContent">
           <img
             class="featurette-image img-responsive center-block inforImg"
             src="../img/图层 6.png"
@@ -278,16 +293,15 @@
       </p>
     </footer>
 
-    
-
     <!-- Include javascript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="../static/assets/js/jquery.min.js"></script>
     <script src="../static/assets/js/holder.min.js"></script>
 
     <script src="../static/assets/js/bootstrap.js"></script>
     <script src="../static/assets/js/bootstrap.min.js"></script>
     <script src="../static/assets/js/npm.js"></script>
+    <script src="../static/assets/js/main.js"></script>
+
     <!-- end javascript -->
   </body>
 </html>

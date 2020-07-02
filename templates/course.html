@@ -12,619 +12,416 @@
     <title>Bootstrap Template</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="../static/assets/css/bootstrap.min.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="../static/assets/css/bootstrap.css" />
-    <link rel="stylesheet" href="../static/assets/css/bootstrap-theme.css" />
 
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="../static/assets/css/carousel.css" />
-    <link rel="stylesheet" href="../static/assets/css/cover.css" />
     <link rel="stylesheet" href="../static/assets/css/course.css" />
+    <link rel="stylesheet" href="../static/assets/css/course-moblie.css" />
+    <link rel="stylesheet" href="../static/assets/css/navbar.css" />
   </head>
 
-  <!-- NAVBAR -->
   <body>
-    <div class="navbar-wrapper">
+    <nav class="navbar navbar-modified navbar-fixed-top">
       <div class="container">
-        <div class="masthead">
-          <div class="inner">
-            <h3 class="masthead-brand">超能小象</h3>
-            <nav>
-              <ul class="masthead-nav">
-                <li><a href="index.html">首页</a></li>
-                <li class="active"><a href=".">课程</a></li>
-                <li><a href="about.html">选择我们</a></li>
-                <li><a href="contect.html">联系我们</a></li>
-              </ul>
-            </nav>
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">超能小象</a>
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#example-navbar-collapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="sr-only">切换导航</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div
+          class="collapse navbar-collapse pull-right"
+          id="example-navbar-collapse"
+        >
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">首页</a></li>
+            <li class="active"><a href="course.html">课程</a></li>
+            <li><a href="about.html">选择我们</a></li>
+            <li><a href="contect.html">联系我们</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-7 col-sm-12">
+            <img
+              class="img-responsive center-block"
+              src="../img/teacher.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col-md-5 col-sm-12 h-25">
+            <h3>课程体系</h3>
+            <h1>欢迎来到超能小象</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+              nam quae, asperiores, eius sunt tempora aperiam, ab pariatur
+              excepturi ut dolorum error? Perferendis earum maxime culpa
+              consectetur quod, debitis eum!
+            </p>
+            <a href="index.html" class="btn btn-light px-5 py-2">
+              联系我们
+            </a>
           </div>
         </div>
       </div>
-    </div>
-
-    <!-- Carousel -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img
-            class="first-slide"
-            src="../img/children-593313_1920_header_code_it_studio.jpg"
-            alt="First slide"
-          />
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>专注6-16岁青少年编程教育</h1>
-              <p>
-                编程语言即将成为一种世界通用语言。让孩子从小开始接触编程，成为全球化人才。
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <img
-            class="second-slide"
-            src="../img/coding-for-kids-guide-3.jpg"
-            alt="Second slide"
-          />
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>1000万平台用户，和你一起学习</h1>
-              <p>大型线上学习交友平台，让编程学习不再孤单。</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <img class="third-slide" src="../img/teacher.jpg" alt="Third slide" />
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>海内外多位学科专家助阵</h1>
-              <p>
-                多位专家学者和学科带头人助阵，学习更加贴近实践，课程质量更高。
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <a
-        class="left carousel-control"
-        href="#myCarousel"
-        role="button"
-        data-slide="prev"
-      >
-        <span
-          class="glyphicon glyphicon-chevron-left"
-          aria-hidden="true"
-        ></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a
-        class="right carousel-control"
-        href="#myCarousel"
-        role="button"
-        data-slide="next"
-      >
-        <span
-          class="glyphicon glyphicon-chevron-right"
-          aria-hidden="true"
-        ></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-    <!-- /.carousel -->
-
-    <div>
-      <div class="class-type">
-        <h3>课程类型</h3>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat quos
-          molestias eius consequatur inventore aliquid explicabo sunt sed
-          praesentium, natus eligendi deserunt quasi! Temporibus quos adipisci
-          ut ab aliquam dolor!
-        </p>
-        <div class="type-wrap clearfix type-width01">
-          <div class="type-item fl">
-            <img
-              src="https://xmcdn.oss-cn-shanghai.aliyuncs.com/xm_teach_pc/1.0.0/prod/1590403401/type01.5052f99.png"
-              alt=""
-            />
-            <em>感知课（6课时）</em>
-            <span
-              >以游戏形式体验程序开发乐趣，让学生熟悉基础开发环境，培养持续学习的兴趣。</span
-            >
-          </div>
-          <div class="type-item fl mgl">
-            <img
-              src="https://xmcdn.oss-cn-shanghai.aliyuncs.com/xm_teach_pc/1.0.0/prod/1590403401/type02.bc86e4d.png"
-              alt=""
-            />
-            <em>理解课（52课时）</em>
-            <span
-              >配合生活中常见科学现象，结合抽象的程序逻辑，帮助孩子在趣味活动中轻松、具象的学习与理解。</span
-            >
-          </div>
-          <div class="type-item fr">
-            <img
-              src="https://xmcdn.oss-cn-shanghai.aliyuncs.com/xm_teach_pc/1.0.0/prod/1590403401/type03.da4b022.png"
-              alt=""
-            />
-            <em>实践课（62课时）</em>
-            <span
-              >巩固所学知识，通过案例实训及时发现、纠正错误理解和认知，建立学生学以致用的思维和渠道。</span
-            >
-          </div>
-        </div>
-        <div class="type-wrap clearfix type-width02">
-          <div class="type-item fl">
-            <img
-              src="https://xmcdn.oss-cn-shanghai.aliyuncs.com/xm_teach_pc/1.0.0/prod/1590403401/type04.5d3adca.png"
-              alt=""
-            />
-            <em>测评课（14课时）</em>
-            <span
-              >通过多种测试方式深入分析和评讲学生的学习情况，纠差防错，巩固强化基础技能。</span
-            >
-          </div>
-          <div class="type-item fr">
-            <img
-              src="https://xmcdn.oss-cn-shanghai.aliyuncs.com/xm_teach_pc/1.0.0/prod/1590403401/type05.81d9004.png"
-              alt=""
-            />
-            <em>创作课（6课时）</em>
-            <span
-              >以诱导性的教育方式，培养孩子探索、发现、独立思考的能力，充分激发孩子丰富的想象力。</span
-            >
-          </div>
-        </div>
-      </div>
-      <div class="levels">
-        <div class="capacity">
-          <h3>分级阶梯图</h3>
-          <h3>精心设计，逐步提高学生的综合能力</h3>
-          <p>
-            通过难易程度、案例综合、学科综合，知识结构四方面的设计思路打造出结构简单、趣味性强、学科性强、体系全面的课程结构
-          </p>
-          <div class="capacity-con clearfix">
-            <div class="capacity-line fl">
-              <div class="cover clearfix">
-                <div class="cover-item"><i></i> <span>L1</span></div>
-                <div class="cover-item"><i></i> <span>L2</span></div>
-                <div class="cover-item"><i></i> <span>L3</span></div>
-                <div class="cover-item"><i></i> <span>L4</span></div>
-                <div class="cover-item"><i></i> <span>L5</span></div>
-                <div class="cover-item"><i></i> <span>L6</span></div>
-                <div class="cover-item"><i></i> <span>L7</span></div>
-                <div class="cover-item cover-on"><i></i> <span>L8</span></div>
+    </header>
+    
+    <main>
+      <section class="section-1">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="teacher">
+                <img src="../img/teacher.jpg" alt="" />
               </div>
             </div>
-            <div class="text fl">知识点量</div>
-            <div class="capacity-radar radar8 fr" id="capacity-radar">
-              <span class="item01">逻辑思维能力</span>
-              <span class="item02">创造能力</span>
-              <span class="item03">归类能力</span>
-              <span class="item04">学习能力</span>
-              <span class="item05">应变能力</span>
+            <div class="col-md-6">
+              <div class="panel text-left">
+                <h1>超能小象</h1>
+                <p class="pt-4">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Fugiat repellat aperiam alias incidunt veniam magnam magni
+                  itaque architecto explicabo deserunt nisi illum blanditiis
+                  obcaecati reiciendis saepe, similique autem praesentium eum.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                  illum vero voluptas. Veritatis, soluta fugiat expedita ut
+                  assumenda sint ullam quo! Itaque, eum. Quas tempora
+                  praesentium omnis laboriosam perferendis facilis.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="courses">
-        <h1>科目</h1>
-        <div class="course">
-          <h3>图块</h3>
-          <table class="table-class width-class-table">
-            <tbody>
-              <tr>
-                <th style="width: 64px;">等级</th>
-                <th style="width: 64px;">课时</th>
-                <th>学习目标</th>
-              </tr>
-              <tr>
-                <td>S1</td>
-                <td>2次四课时</td>
-                <td>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Recusandae dolorem quasi aperiam deserunt perspiciatis, cumque
-                  distinctio? Provident tenetur, esse illum quibusdam quis optio
-                  aspernatur nobis recusandae ipsum corrupti quasi iusto.
-                </td>
-              </tr>
-              <tr>
-                <td>S2</td>
-                <td>2次四课时</td>
-                <td>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Pariatur harum nam fugiat nemo quaerat cum adipisci corrupti
-                  quisquam incidunt fugit atque laborum, nihil velit dolore,
-                  placeat dignissimos dolor illum ut?
-                </td>
-              </tr>
-              <tr>
-                <td>S3</td>
-                <td>2次四课时</td>
-                <td>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Facere veniam explicabo dolore ab eveniet sint deserunt
-                  accusamus enim maxime harum at rem quisquam, aspernatur
-                  laborum totam. Velit harum minima debitis.
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div class="course">
-          <h3>playgrounds</h3>
-          <table class="table-class width-class-table">
-            <tbody>
-              <tr>
-                <th style="width: 64px;">等级</th>
-                <th style="width: 64px;">课时</th>
-                <th>学习目标</th>
-              </tr>
-              <tr>
-                <td>S1</td>
-                <td>2次四课时</td>
-                <td>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Recusandae dolorem quasi aperiam deserunt perspiciatis, cumque
-                  distinctio? Provident tenetur, esse illum quibusdam quis optio
-                  aspernatur nobis recusandae ipsum corrupti quasi iusto.
-                </td>
-              </tr>
-              <tr>
-                <td>S2</td>
-                <td>2次四课时</td>
-                <td>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Pariatur harum nam fugiat nemo quaerat cum adipisci corrupti
-                  quisquam incidunt fugit atque laborum, nihil velit dolore,
-                  placeat dignissimos dolor illum ut?
-                </td>
-              </tr>
-              <tr>
-                <td>S3</td>
-                <td>2次四课时</td>
-                <td>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Facere veniam explicabo dolore ab eveniet sint deserunt
-                  accusamus enim maxime harum at rem quisquam, aspernatur
-                  laborum totam. Velit harum minima debitis.
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div class="course">
-          <h3>AR</h3>
-          <table class="table-class width-class-table">
-            <tbody>
-              <tr>
-                <th style="width: 64px;">等级</th>
-                <th style="width: 64px;">课时</th>
-                <th>学习目标</th>
-              </tr>
-              <tr>
-                <td>S1</td>
-                <td>2次四课时</td>
-                <td>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Recusandae dolorem quasi aperiam deserunt perspiciatis, cumque
-                  distinctio? Provident tenetur, esse illum quibusdam quis optio
-                  aspernatur nobis recusandae ipsum corrupti quasi iusto.
-                </td>
-              </tr>
-              <tr>
-                <td>S2</td>
-                <td>2次四课时</td>
-                <td>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Pariatur harum nam fugiat nemo quaerat cum adipisci corrupti
-                  quisquam incidunt fugit atque laborum, nihil velit dolore,
-                  placeat dignissimos dolor illum ut?
-                </td>
-              </tr>
-              <tr>
-                <td>S3</td>
-                <td>2次四课时</td>
-                <td>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Facere veniam explicabo dolore ab eveniet sint deserunt
-                  accusamus enim maxime harum at rem quisquam, aspernatur
-                  laborum totam. Velit harum minima debitis.
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div class="course">
-          <h3>机器人</h3>
-          <table class="table-class width-class-table">
-            <tbody>
-              <tr>
-                <th style="width: 64px;">等级</th>
-                <th style="width: 64px;">课时</th>
-                <th>学习目标</th>
-              </tr>
-              <tr>
-                <td>S1</td>
-                <td>2次四课时</td>
-                <td>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Recusandae dolorem quasi aperiam deserunt perspiciatis, cumque
-                  distinctio? Provident tenetur, esse illum quibusdam quis optio
-                  aspernatur nobis recusandae ipsum corrupti quasi iusto.
-                </td>
-              </tr>
-              <tr>
-                <td>S2</td>
-                <td>2次四课时</td>
-                <td>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Pariatur harum nam fugiat nemo quaerat cum adipisci corrupti
-                  quisquam incidunt fugit atque laborum, nihil velit dolore,
-                  placeat dignissimos dolor illum ut?
-                </td>
-              </tr>
-              <tr>
-                <td>S3</td>
-                <td>2次四课时</td>
-                <td>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Facere veniam explicabo dolore ab eveniet sint deserunt
-                  accusamus enim maxime harum at rem quisquam, aspernatur
-                  laborum totam. Velit harum minima debitis.
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div class="course">
-          <h3>Python</h3>
-          <table class="table-class width-class-table">
-            <tbody>
-              <tr>
-                <th style="width: 64px;">等级</th>
-                <th style="width: 64px;">课时</th>
-                <th>学习目标</th>
-              </tr>
-              <tr>
-                <td>S1</td>
-                <td>2次四课时</td>
-                <td>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Recusandae dolorem quasi aperiam deserunt perspiciatis, cumque
-                  distinctio? Provident tenetur, esse illum quibusdam quis optio
-                  aspernatur nobis recusandae ipsum corrupti quasi iusto.
-                </td>
-              </tr>
-              <tr>
-                <td>S2</td>
-                <td>2次四课时</td>
-                <td>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Pariatur harum nam fugiat nemo quaerat cum adipisci corrupti
-                  quisquam incidunt fugit atque laborum, nihil velit dolore,
-                  placeat dignissimos dolor illum ut?
-                </td>
-              </tr>
-              <tr>
-                <td>S3</td>
-                <td>2次四课时</td>
-                <td>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Facere veniam explicabo dolore ab eveniet sint deserunt
-                  accusamus enim maxime harum at rem quisquam, aspernatur
-                  laborum totam. Velit harum minima debitis.
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div class="course">
-          <h3>Xcode</h3>
-          <table class="table-class width-class-table">
-            <tbody>
-              <tr>
-                <th style="width: 64px;">等级</th>
-                <th style="width: 64px;">课时</th>
-                <th>学习目标</th>
-              </tr>
-              <tr>
-                <td>S1</td>
-                <td>2次四课时</td>
-                <td>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Recusandae dolorem quasi aperiam deserunt perspiciatis, cumque
-                  distinctio? Provident tenetur, esse illum quibusdam quis optio
-                  aspernatur nobis recusandae ipsum corrupti quasi iusto.
-                </td>
-              </tr>
-              <tr>
-                <td>S2</td>
-                <td>2次四课时</td>
-                <td>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Pariatur harum nam fugiat nemo quaerat cum adipisci corrupti
-                  quisquam incidunt fugit atque laborum, nihil velit dolore,
-                  placeat dignissimos dolor illum ut?
-                </td>
-              </tr>
-              <tr>
-                <td>S3</td>
-                <td>2次四课时</td>
-                <td>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Facere veniam explicabo dolore ab eveniet sint deserunt
-                  accusamus enim maxime harum at rem quisquam, aspernatur
-                  laborum totam. Velit harum minima debitis.
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-      <div class="Homepage__Program">
-        <h3>课堂环节</h3>
-        <div class="Site__Wrapper">
-          <h2 class="Site__Title">
-            You'll earn your Bachelor’s degree in Applied Computer Science
-          </h2>
+      </section>
 
-          <span class="Homepage__Subtitle">
-            Studying liberal arts and computing through project-based education
-            with high touch instruction
-          </span>
-
-          <div class="Homepage__Programs">
-            <div class="Homepage__ProgramBox">
-              <img
-                class="Homepage__ProgramsImage"
-                src="https://res.cloudinary.com/makeschool/image/upload/computerscience.svg"
-              />
-              <h3 class="Homepage__ProgramHeader">Computer Science</h3>
-              <p class="Homepage__ProgramText">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-                blanditiis veritatis, quod officiis architecto perferendis
-                sapiente vero excepturi? Ea libero accusamus tempora recusandae
-                quaerat autem doloribus voluptas quo fugit quam?
-              </p>
+      <section class="section-2 container-fluid p-0">
+        <div class="cover">
+          <div class="content text-center">
+            <h1>分级阶梯图</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Assumenda, dignissimos?
+            </p>
+          </div>
+        </div>
+        <div class="container-fluid text-center">
+          <div
+            class="levels d-flex flex-md-row flex-wrap justify-content-center"
+          >
+            <div class="rect">
+              <h1>S1</h1>
+              <p>Lorem, ipsum dolor.</p>
             </div>
-
-            <div class="Homepage__ProgramBox">
-              <img
-                class="Homepage__ProgramsImage"
-                src="https://res.cloudinary.com/makeschool/image/upload/product.svg"
-              />
-              <h3 class="Homepage__ProgramHeader">Product Development</h3>
-              <p class="Homepage__ProgramText">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Quaerat modi quod quo temporibus at nostrum dicta! Illo numquam
-                beatae quia voluptatum ratione assumenda iusto accusamus
-                asperiores, minus earum fuga nisi.
-              </p>
+            <div class="rect">
+              <h1>S2</h1>
+              <p>Lorem, ipsum dolor.</p>
             </div>
+            <div class="rect">
+              <h1>S3</h1>
+              <p>Lorem, ipsum dolor.</p>
+            </div>
+            <div class="rect">
+              <h1>S4</h1>
+              <p>Lorem, ipsum dolor.</p>
+            </div>
+            <div class="rect">
+              <h1>S5</h1>
+              <p>Lorem, ipsum dolor.</p>
+            </div>
+            <div class="rect">
+              <h1>S6</h1>
+              <p>Lorem, ipsum dolor.</p>
+            </div>
+            <div class="rect">
+              <h1>S7</h1>
+              <p>Lorem, ipsum dolor.</p>
+            </div>
+            <div class="rect">
+              <h1>S8</h1>
+              <p>Lorem, ipsum dolor.</p>
+            </div>
+          </div>
+        </div>
 
-            <div class="Homepage__ProgramBox">
-              <img
-                class="Homepage__ProgramsImage"
-                src="https://res.cloudinary.com/makeschool/image/upload/liberalarts.svg"
-              />
-              <h3 class="Homepage__ProgramHeader">Liberal Arts</h3>
-              <p class="Homepage__ProgramText">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure,
-                vero voluptas sint dolore tempora odit quas, ea commodi hic enim
-                cumque doloremque optio illo. Voluptatibus praesentium itaque
-                beatae nemo magnam?
+        <div class="purchase text-center">
+          <h1>课程类型</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia ut ex
+            unde commodi molestias dolores!
+          </p>
+          <div class="course-type">
+            <div class="courses">
+              <div class="d-flex flex-row justify-content-center flex-wrap">
+                <!--First card -->
+                <div class="card">
+                  <div class="card-body">
+                    <div class="title">
+                      <h5 class="card-title">感知课（6课时）</h5>
+                    </div>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Nobis, aliquid.
+                    </p>
+                  </div>
+                </div>
+                <!--Second card -->
+                <div class="card">
+                  <div class="card-body">
+                    <div class="title">
+                      <h5 class="card-title">感知课（6课时）</h5>
+                    </div>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Nobis, aliquid.
+                    </p>
+                  </div>
+                </div>
+                <!--Third card -->
+                <div class="card">
+                  <div class="card-body">
+                    <div class="title">
+                      <h5 class="card-title">感知课（6课时）</h5>
+                    </div>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Nobis, aliquid.
+                    </p>
+                  </div>
+                </div>
+                <!--Fourth card -->
+                <div class="card">
+                  <div class="card-body">
+                    <div class="title">
+                      <h5 class="card-title">感知课（6课时）</h5>
+                    </div>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Nobis, aliquid.
+                    </p>
+                  </div>
+                </div>
+                <!--Fifth card -->
+                <div class="card">
+                  <div class="card-body">
+                    <div class="title">
+                      <h5 class="card-title">感知课（6课时）</h5>
+                    </div>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Nobis, aliquid.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-3 container-fluid p-0 text-center">
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+            <h1>科目</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam,
+              nam! Distinctio alias voluptatum ut optio dolores ex est debitis
+              accusantium rem reiciendis maiores, laborum cum suscipit quaerat
+              eligendi fugit accusamus.
+            </p>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-12 col-sm-12">
+            <div class="panel text-center">
+              <h1>超能小象</h1>
+              <p class="pt-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+                repellat aperiam alias incidunt veniam magnam magni itaque
+                architecto explicabo deserunt nisi illum blanditiis obcaecati
+                reiciendis saepe, similique autem praesentium eum.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                illum vero voluptas. Veritatis, soluta fugiat expedita ut
+                assumenda sint ullam quo! Itaque, eum. Quas tempora praesentium
+                omnis laboriosam perferendis facilis.
               </p>
             </div>
           </div>
         </div>
-      </div>
-      <div class="lecture">
-        <h3>上课</h3>
-        <div class="block">
-          <img
-            class="Homepage__ProgramsImage"
-            src="https://res.cloudinary.com/makeschool/image/upload/liberalarts.svg"
-          />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ea
-            iure nihil. Est molestiae sint, nesciunt vel reiciendis maiores
-            dolore tempore nam earum sequi! Vero temporibus ut placeat iste
-            itaque!
-          </p>
-        </div>
-        <div class="block">
-          <img
-            class="Homepage__ProgramsImage"
-            src="https://res.cloudinary.com/makeschool/image/upload/liberalarts.svg"
-          />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ea
-            iure nihil. Est molestiae sint, nesciunt vel reiciendis maiores
-            dolore tempore nam earum sequi! Vero temporibus ut placeat iste
-            itaque!
-          </p>
-        </div>
-        <div class="block">
-          <img
-            class="Homepage__ProgramsImage"
-            src="https://res.cloudinary.com/makeschool/image/upload/liberalarts.svg"
-          />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ea
-            iure nihil. Est molestiae sint, nesciunt vel reiciendis maiores
-            dolore tempore nam earum sequi! Vero temporibus ut placeat iste
-            itaque!
-          </p>
-        </div>
-        <div class="block">
-          <img
-            class="Homepage__ProgramsImage"
-            src="https://res.cloudinary.com/makeschool/image/upload/liberalarts.svg"
-          />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ea
-            iure nihil. Est molestiae sint, nesciunt vel reiciendis maiores
-            dolore tempore nam earum sequi! Vero temporibus ut placeat iste
-            itaque!
-          </p>
-        </div>
-        <div class="block">
-          <img
-            class="Homepage__ProgramsImage"
-            src="https://res.cloudinary.com/makeschool/image/upload/liberalarts.svg"
-          />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ea
-            iure nihil. Est molestiae sint, nesciunt vel reiciendis maiores
-            dolore tempore nam earum sequi! Vero temporibus ut placeat iste
-            itaque!
-          </p>
-        </div>
-        <div class="block">
-          <img
-            class="Homepage__ProgramsImage"
-            src="https://res.cloudinary.com/makeschool/image/upload/liberalarts.svg"
-          />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ea
-            iure nihil. Est molestiae sint, nesciunt vel reiciendis maiores
-            dolore tempore nam earum sequi! Vero temporibus ut placeat iste
-            itaque!
-          </p>
-        </div>
-        <div class="clearfix"></div>
-      </div>
-      <button type="button" class="btn btn-default btn-lg" id="fixed">
-        <span class="glyphicon glyphicon-envelope"></span>
-      </button>
-    </div>
+      </section>
 
-    <!-- FOOTER -->
+      <section class="section-4">
+        <div class="container text-center">
+          <h1 class="text-dark">课堂环节</h1>
+          <p class="text-secondary">Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="team row">
+          <div class="col-md-4 col-12 text-center">
+            <div class="card mr-2 d-inline-block shadow-lg">
+              <div class="card-img-top">
+                <img
+                  class="img-fluid"
+                  src="https://xmcdn.oss-cn-shanghai.aliyuncs.com/xm_teach_pc/1.0.0/prod/1590403401/type01.5052f99.png"
+                  alt=""
+                />
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">One</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aperiam porro enim consectetur voluptate soluta quisquam
+                  deleniti molestias ducimus laboriosam totam. Laudantium sed
+                  asperiores voluptatem voluptas incidunt consequatur similique
+                  quod expedita.
+                </p>
+                <p class="text-black-50">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Quia, aliquam!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12">
+            <!-- Carousel Strarted-->
+            <div
+              id="carouselExampleSlidesOnly"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active text-center">
+                  <!-- Card 2-->
+                  <div class="card mr-2 d-inline-block shadow-lg">
+                    <div class="card-img-top">
+                      <img
+                        class="img-fluid"
+                        src="https://xmcdn.oss-cn-shanghai.aliyuncs.com/xm_teach_pc/1.0.0/prod/1590403401/type01.5052f99.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h3 class="card-title">Tow</h3>
+                      <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aperiam porro enim consectetur voluptate soluta quisquam
+                        deleniti molestias ducimus laboriosam totam. Laudantium
+                        sed asperiores voluptatem voluptas incidunt consequatur
+                        similique quod expedita.
+                      </p>
+                      <p class="text-black-50">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Quia, aliquam!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item text-center">
+                  <!--Card3-->
+                  <div class="card mr-2 d-inline-block shadow-lg">
+                    <div class="card-img-top">
+                      <img
+                        class="img-fluid"
+                        src="https://xmcdn.oss-cn-shanghai.aliyuncs.com/xm_teach_pc/1.0.0/prod/1590403401/type01.5052f99.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h3 class="card-title">Three</h3>
+                      <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aperiam porro enim consectetur voluptate soluta quisquam
+                        deleniti molestias ducimus laboriosam totam. Laudantium
+                        sed asperiores voluptatem voluptas incidunt consequatur
+                        similique quod expedita.
+                      </p>
+                      <p class="text-black-50">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Quia, aliquam!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 text-center">
+            <!--Card 4-->
+            <div class="card mr-2 d-inline-block shadow-lg">
+              <div class="card-img-top">
+                <img
+                  class="img-fluid"
+                  src="https://xmcdn.oss-cn-shanghai.aliyuncs.com/xm_teach_pc/1.0.0/prod/1590403401/type01.5052f99.png"
+                  alt=""
+                />
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">Four</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aperiam porro enim consectetur voluptate soluta quisquam
+                  deleniti molestias ducimus laboriosam totam. Laudantium sed
+                  asperiores voluptatem voluptas incidunt consequatur similique
+                  quod expedita.
+                </p>
+                <p class="text-black-50">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Quia, aliquam!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer class="footerBox">
-      <p style="padding-top: 150px;">
-        &copy; 2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot;
-        <a href="#">Terms</a>
-      </p>
+      <div class="container-fluid p-0 text-center">
+        <p class="text-muted" style="padding-top: 150px;">
+          &copy; 2020 Company, Inc. &middot;
+          <a href="#" class="text-muted">Privacy</a> &middot;
+          <a href="#" class="text-muted">Terms</a>
+        </p>
+      </div>
     </footer>
-
     <!-- Include javascript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="../static/assets/js/jquery.min.js"></script>
-    <script src="../static/assets/js/holder.min.js"></script>
-
-    <script src="../static/assets/js/bootstrap.js"></script>
-    <script src="../static/assets/js/bootstrap.min.js"></script>
-    <script src="../static/assets/js/npm.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../static/assets/js/main.js"></script>
     <!-- end javascript -->
   </body>
 </html>

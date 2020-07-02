@@ -1,325 +1,266 @@
-
-/*
-class-type
-*/
-
-.class-type {
-  padding: 96px 0;
-  margin: 0 auto;
-  width: 100%;
-  color: #333;
-  background: #fdf1f4;
-  background: -webkit-linear-gradient(top, #fdf1f4 0%, #ecedf6 100%);
-  background: linear-gradient(to bottom, #fdf1f4 0%, #ecedf6 100%);
-  padding-bottom: 100px;
-}
-
-.class-type .type-wrap.type-width01 {
-  width: 1200px;
-  margin-bottom: 84px;
-}
-
-.class-type .type-wrap {
-  margin: 0 auto;
-}
-
-.class-type .type-wrap.type-width01 {
-  width: 1200px;
-  margin-bottom: 84px;
-}
-
-.class-type .type-wrap {
-  margin: 0 auto;
-}
-
-.class-type .type-item {
-  width: 360px;
-  height: 400px;
-  background: #fff;
-  box-shadow: 0 2px 20px 0 rgba(85, 129, 255, 0.1);
-  border-radius: 6px;
-}
-
-.fl {
-  float: left;
-}
-
-.class-type .type-item.mgl {
-  margin-left: 60px;
-}
-.class-type .type-item {
-  width: 360px;
-  height: 400px;
-  background: #fff;
-  box-shadow: 0 2px 20px 0 rgba(85, 129, 255, 0.1);
-  border-radius: 6px;
-}
-
-.fr {
-  float: right;
-}
-
-.class-type .type-item img {
-  display: block;
-  width: 360px;
-}
-
-.class-type .type-wrap.type-width02 {
-  width: 780px;
-}
-
-.class-type .type-wrap {
-  margin: 0 auto;
-}
-
-.clearfix:after {
-  display: block;
-  content: "";
-  clear: both;
-  visibility: hidden;
-  height: 0;
-  width: 0;
-}
-
-/* level div*/
-.capacity {
-  background: #fdf1f4;
-  background: -webkit-linear-gradient(top, #fdf1f4 0%, #ecedf6 100%);
-  background: linear-gradient(to bottom, #fdf1f4 0%, #ecedf6 100%);
-  padding-bottom: 100px;
-  background-size: cover;
-  width: 100%;
-  height: 680px;
-  padding: 85px 0 0;
-  color: #333;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.capacity-con {
-  width: 1174px;
-  margin: 0 auto;
-}
-
-.capacity-line {
-  background: url(https://xmcdn.oss-cn-shanghai.aliyuncs.com/xm_teach_pc/1.0.0/prod/1590403401/capacity-line.d2c003f.png)
-    no-repeat 50%;
-  background-size: cover;
-  width: 729px;
-  height: 307px;
-  position: relative;
-}
-
-.capacity-line .cover {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
-  cursor: pointer;
-}
-
-.capacity-line .cover-item {
-  display: block;
-  float: left;
-  width: 90px;
-  margin-top: 15px;
-}
-
-.clearfix:after {
-  display: block;
-  content: "";
-  clear: both;
-  visibility: hidden;
-  height: 0;
-  width: 0;
-}
-
-.capacity-con .text {
-  font-size: 16px;
-  color: #00e4ff;
-  line-height: 20px;
-  padding: 4px 0 0 7px;
-}
-
-.capacity-radar.radar8 {
-  background: url(https://xmcdn.oss-cn-shanghai.aliyuncs.com/xm_teach_pc/1.0.0/prod/1590403401/radar08.fb0609b.png)
-    no-repeat 50%;
-  background-size: cover;
-}
-.capacity-radar {
-  width: 201px;
-  height: 190px;
-  margin: 76px 66px 0 0;
-  position: relative;
-}
-
-/* 
-courses
-*/
-.courses {
-  padding: 96px 0;
-  margin: 0 auto;
-  width: 100%;
-  color: #333;
-  background: #fdf1f4;
-  background: -webkit-linear-gradient(top, #fdf1f4 0%, #ecedf6 100%);
-  background: linear-gradient(to bottom, #fdf1f4 0%, #ecedf6 100%);
-  padding-bottom: 100px;
-}
-
-.course {
-  margin-top: 0px;
-  margin-bottom: 150px;
-  color: #fff;
-}
-
-/*
- table
-*/
-.table-class tr th {
-  background: #a8a8aa;
-  border-radius: 6px;
-  font-weight: 700;
-  text-align: center;
-  vertical-align: middle;
-  height: 48px;
-}
-
-.table-class td {
-  background: #bababd;
-  border-radius: 6px;
-  font-weight: 700;
-  text-align: center;
-  vertical-align: middle;
-  height: 48px;
-}
-
-.table-class.width-class-table {
-  width: 1060px;
-  margin: 0 auto;
-}
-
-.table-class {
-  border-collapse: separate;
-  border-spacing: 10px;
-}
-
-/* class process*/
-.Homepage__Program {
-  padding: 90px 30px;
-  margin: 0 auto;
-  width: 100%;
-  color: #333;
-  background: #fdf1f4;
-  background: -webkit-linear-gradient(top, #fdf1f4 0%, #ecedf6 100%);
-  background: linear-gradient(to bottom, #fdf1f4 0%, #ecedf6 100%);
-  padding-bottom: 100px;
-}
-
-.Site__Wrapper {
-  margin: 0 auto;
-  max-width: 1439px;
-}
-
-.Site__Title {
-  font-weight: 700;
-  font-family: proxima-nova, helvetica neue, Helvetica, Arial, sans-serif;
-  color: #0d4062;
-  font-size: 1.875rem;
-  line-height: 2.1;
-  text-align: center;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.Homepage__Programs {
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-pack: center;
-  justify-content: center;
-  margin: 60px 0;
-}
-
-.Homepage__ProgramBox:first-child {
-  margin-left: 0;
-}
-
-.Homepage__ProgramBox {
-  background-color: #fff;
-  border-radius: 5px;
-  border: 1px solid rgba(135, 137, 140, 0.5);
-  margin: 0 30px;
-  max-width: 420px;
-  padding: 24px 36px 12px;
-}
-
-.Homepage__ProgramsImage {
-  display: block;
-  margin: 0 auto;
-  max-height: 90px;
-}
-
-.Homepage__ProgramHeader {
-  font-weight: 700;
-  font-family: proxima-nova, helvetica neue, Helvetica, Arial, sans-serif;
-  color: #4a4a4a;
-  font-size: 1.25rem;
-  font-stretch: normal;
-  font-style: normal;
-  text-transform: uppercase;
-  line-height: 2.05;
-  letter-spacing: 1.53px;
-  margin-bottom: 6px;
-  text-align: center;
-}
-
-.Homepage__ProgramText {
-  font-weight: 400;
-  font-family: proxima-nova, helvetica neue, Helvetica, Arial, sans-serif;
-  color: #4a4a4a;
-  font-size: 1rem;
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: 2;
-  margin-top: 0;
-  text-align: center;
-}
-
-.Homepage__ProgramBox:last-child {
-  margin-right: 0;
-}
-
-/*lecture*/
-
-.lecture {
-  padding: 96px 0;
-  margin: 0 auto;
-  width: 100%;
-  color: #333;
-  background: #fdf1f4;
-  background: -webkit-linear-gradient(top, #fdf1f4 0%, #ecedf6 100%);
-  background: linear-gradient(to bottom, #fdf1f4 0%, #ecedf6 100%);
-  padding-bottom: 100px;
-}
-
-.block {
-  float: left;
-  width: 33.3%;
-  border: 1px solid #ccc;
+* {
   box-sizing: border-box;
 }
 
-.clearfix {
-  clear: both;
-}
-/* fixed button*/
-#fixed {
-  position: fixed;
-  right: 50px;
-  bottom: 75px;
-  color: #333;
+header,
+section {
+  overflow: hidden;
 }
 
+:root {
+  --Snigle-font: ;
+}
+
+header a {
+  font-size: 2em;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+header {
+  background: rgb(178, 232, 250);
+  /* background: -webkit-linear-gradient(top, #fdf1f4 0%, #ecedf6 100%);
+  background: linear-gradient(to bottom, #fdf1f4 0%, #ecedf6 100%); */
+}
+
+header .nav-item:last-child {
+  padding-right: 10.5em;
+}
+
+header .nav-item {
+  padding: 0.9em;
+}
+
+header .navbar-brand {
+  padding-left: 8rem;
+}
+
+header .nav-link:hover {
+  color: black;
+}
+
+header .navbar-nav > .active > a,
+header .navbar-nav > .active > a:hover,
+header .navbar-nav > .active > a:focus {
+  color: black;
+  border-bottom-color: black;
+}
+
+header .row .col-md-5 {
+  padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-7 {
+  padding: 5vmin 1vmin;
+  padding-bottom: 10vmin;
+}
+
+header .row .col-md-7 img {
+  width: 90%;
+}
+
+header .container .col-md-5 h3 {
+  padding: 1vmin;
+  letter-spacing: 8px;
+}
+
+header .container .col-md-5 h1 {
+  font-size: 4.5vmin;
+  font-weight: bold;
+  padding: 0.1em 0em;
+}
+
+header .container .col-md-5 p {
+  padding: 1vmin 5vmin;
+}
+
+header .container .col-md-5 button {
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+/* section 1*/
+.section-1 {
+  padding: 20vmin 0;
+}
+
+.section-1 .row .col-md-6 .teacher img {
+  opacity: 0.8;
+  width: 80%;
+  height: 600px;
+  border-radius: 0.2em;
+}
+
+.section-1 .row .col-md-6:last-child {
+  position: relative;
+}
+
+.section-1 .row .col-md-6 .panel {
+  position: absolute;
+  top: 7vmin;
+  left: -18vmin;
+  background: white;
+  border-radius: 3px;
+  text-align: left;
+  padding: 13vmin 5vmin 20vmin 10vmin;
+  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.section-1 .row .col-md-6 .panel h1 {
+  font-weight: bold;
+  padding: 0.4em 0;
+  font-size: 2em;
+}
+
+.section-1 .row .col-md-6 .panel p {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/*section 2 */
+
+.cover {
+  width: 100%;
+  height: 55vmin;
+  background: url("../../../img/children-593313_1920_header_code_it_studio.jpg");
+  background-position: -24rem -19rem;
+  background-size: 150%;
+  position: relative;
+}
+
+.cover .content {
+  background: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+  padding-top: 19vmin;
+}
+
+.cover .content > h1 {
+  font-size: 6vmin;
+  color: whitesmoke;
+}
+
+.cover .content > p {
+  font-size: 3.5vmin;
+  color: #e5e5e5;
+}
+
+.levels .rect {
+  position: relative;
+  z-index: 1;
+  background: white;
+  width: 10rem;
+  height: 12rem;
+  padding-top: 3.5vmin;
+  margin: 1rem;
+  border-radius: 2em;
+  box-shadow: 1px 2px 50px 0px rgba(0, 0, 0, 0.2);
+}
+
+.levels {
+  margin-top: 2vmin;
+}
+
+.levels .rect h1 {
+  font-size: 5rem;
+}
+
+.purchase > h1 {
+  padding-top: 15vmin;
+  padding-bottom: 0.1em;
+}
+
+.purchase > p {
+  font-size: 3vmin;
+  padding-bottom: 10vmin;
+}
+
+.purchase .courses .card {
+  width: 22rem;
+  margin: 3vmin;
+}
+
+.courses div {
+  padding: 0;
+  margin: 0;
+}
+
+.courses .title {
+  background: rgba(208, 241, 241, 0.1);
+  padding: 1.4rem 2.5rem;
+  font-size: 2vmin;
+}
+
+.card .card-text {
+  padding: 2.5rem 3rem;
+  color: black;
+}
+
+/*section 3*/
+
+.section-3 {
+  margin-top: 15vmin;
+  background: #fdf1f4;
+  background: -webkit-linear-gradient(top, #fdf1f4 0%, #ecedf6 100%);
+  background: linear-gradient(to bottom, #fdf1f4 0%, #ecedf6 100%);
+}
+
+.section-3 .col-md-12 > h1 {
+  padding: 2em 0 0.5em 0;
+  color: black;
+  font-size: 6vmin;
+}
+
+.section-3 .col-md-12 > p {
+  padding: 0 4em;
+padding-bottom: 2em;
+  color: black;
+  font-size: 3vmin;
+}
+
+.section-3 .row .col-md-12 .panel {
+  top: 7vmin;
+  background: white;
+  border-radius: 3px;
+  text-align: center;
+  padding: 2em 0 0.5em 0;
+  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+  margin: 100px 50px;
+  z-index: 1;
+}
+
+.section-3 .row .col-md-12 .panel h1 {
+  font-weight: bold;
+  padding: 0.4em 0;
+  font-size: 2em;
+}
+
+.section-3 .row .col-md-12 .panel p {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/*section 4*/
+.section-4 .container h1 {
+  font-size: 6vmin;
+  padding-top: 14vmin;
+}
+
+.section-4 .team {
+  padding: 10vmin 4vmin;
+}
+
+.section-4 .card {
+  width: 30rem;
+  margin-top: 10vmin;
+}
+
+.section-4 .card .card-text {
+  padding: 0.5em;
+}
+
+.section-4 .carousel-item {
+  padding-left: 3rem;
+}
+/** footer**/
 .footerBox {
   height: 300px;
   background-color: #333333;

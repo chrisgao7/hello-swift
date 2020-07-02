@@ -1,154 +1,178 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-  <meta name="description" content="Template of website">
-  <meta name="author" content="chris">
-  <title>Bootstrap Template</title>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="description" content="Template of website" />
+    <meta name="author" content="chris" />
+    <title>Bootstrap Template</title>
 
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="../static/assets/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="../static/assets/css/bootstrap.css" />
-  <link rel="stylesheet" href="../static/assets/css/bootstrap-theme.css" />
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="../static/assets/css/bootstrap.css" />
 
-  <!-- Custom styles for this template -->
-  <link rel="stylesheet" href="../static/assets/css/carousel.css" />
-  <link rel="stylesheet" href="../static/assets/css/cover.css" />
-  <link rel="stylesheet" href="../static/assets/css/about.css"/>
-</head>
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="../static/assets/css/carousel.css" />
+    <link rel="stylesheet" href="../static/assets/css/cover.css" />
+    <link rel="stylesheet" href="../static/assets/css/about.css" />
+    <link rel="stylesheet" href="../static/assets/css/navbar.css" />
+  </head>
 
-<body>
-  <div class="navbar-wrapper">
-    <div class="container">
-      <div class="masthead">
-        <div class="inner">
-          <h3 class="masthead-brand">超能小象</h3>
-          <nav>
-            <ul class="masthead-nav">
-              <li><a href="index.html">首页</a></li>
-              <li><a href="course.html">课程</a></li>
-              <li class="active"><a href=".">选择我们</a></li>
-              <li><a href="contect.html">联系我们</a></li>
-            </ul>
-          </nav>
+  <body>
+    <nav class="navbar navbar-modified navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">超能小象</a>
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#example-navbar-collapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="sr-only">切换导航</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div
+          class="collapse navbar-collapse pull-right"
+          id="example-navbar-collapse"
+        >
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="course.html">课程</a></li>
+            <li class="active"><a href="about.html">选择我们</a></li>
+            <li><a href="contect.html">联系我们</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Poster -->
+    <div class="carousel slide">
+      <div class="carousel-inner">
+        <div class="item active">
+          <img
+            class="first-slide"
+            src="../img/children-593313_1920_header_code_it_studio.jpg"
+            alt="First slide"
+          />
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>我们是谁</h1>
+              <p>
+                我们拥有强大的师资力量，现进的教学模式以及完善的课程体系。助力孩子全面发展。
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+    <!-- /.Poster -->
 
-  <!-- Poster -->
-  <div class="carousel slide">
-    <div class="carousel-inner">
-      <div class="item active">
-        <img class="first-slide" src="../img/children-593313_1920_header_code_it_studio.jpg" alt="First slide"/>
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>我们是谁</h1>
-            <p>我们拥有强大的师资力量，现进的教学模式以及完善的课程体系。助力孩子全面发展。</p>
-          </div>
+    <!-- 介绍 -->
+    <div class="content">
+      <div class="commonTitle">
+        <span>我们的介绍</span>
+        <div class="commonSubTitle">
+          超能小象少儿编程(Super Eli
+          Coding)是一家扎根于大湾区的少儿编程教育机构，其主理人高宇超老师是北师港浸大（UIC）计算机科学与技术的在职教师。
+        </div>
+      </div>
+
+      <div class="ourPicBox">
+        <img src="../img/teacher.jpg" alt="" class="ourPic" />
+      </div>
+    </div>
+    <!-- /.介绍 -->
+
+    <!-- 愿景 -->
+    <div class="row content1">
+      <div class="commonTitle">
+        <span>我们的愿景</span>
+        <div class="commonSubTitle">
+          超能小象的愿景是普及少儿编程的同时培养国际化视野人才，让我们的孩子将来走出国门也能不落人后。
         </div>
       </div>
     </div>
-  </div>
-  <!-- /.Poster -->
+    <!-- /.愿景 -->
 
-  <!-- 介绍 -->
-  <div class="row content">
-    <div class="commonTitle">
-      <span>我们的介绍</span>
-      <div class="commonSubTitle">
-        超能小象少儿编程(Super Eli Coding)是一家扎根于大湾区的少儿编程教育机构，其主理人高宇超老师是北师港浸大（UIC）计算机科学与技术的在职教师。
-      </div>
-    </div>
-
-    <div class="ourPicBox">
-      <img src="../img/teacher.jpg" alt="" class="ourPic">
-    </div>
-
-  </div>
-  <!-- /.介绍 -->
-
-  <!-- 师资 -->
-  <div class="row content1">
-    <div class="commonTitle">
-      <span>我们的师资</span>
-      <div class="commonSubTitle">
-        在2018-2020年间，高宇超便在广深珠三地进行少儿编程的试点教育，如今教授学生达100人+，授课时长累计300小时+。
-      </div>
-    </div>
-    <div class="imgBox">
-      <ul>
-        <li class="leftImg">
-          <div>
-            <div class="boxImgOne">
-              <img src="../img/teacher.jpg" alt="" class="imgSize">
-            </div>
-            <div class="boxImgTwo">
-              <img src="../img/teacher.jpg" alt="" class="imgSize">
-            </div>
-            <div class="boxImgThree">
-              <img src="../img/teacher.jpg" alt="" class="imgSize1">
-            </div>
+    <!-- 师资 -->
+    <div class="row content">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="commonTitle">
+          <span>我们的师资</span>
+          <div class="commonSubTitle">
+            在2018-2020年间，高宇超便在广深珠三地进行少儿编程的试点教育，如今教授学生达100人+，授课时长累计300小时+。
           </div>
-        </li>
-        <li class="rightImg">
-          <div>
-            <div class="boxImgFour">
-              <img src="../img/teacher.jpg" alt="" class="imgSize1">
-            </div>
-            <div class="boxImgFive">
-              <img src="../img/teacher.jpg" alt="" class="imgSize">
-            </div>
-            <div class="boxImgSix">
-              <img src="../img/teacher.jpg" alt="" class="imgSize">
-            </div>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <!-- /.师资 -->
-
-  <!-- 愿景 -->
-  <div class="row content">
-    <div class="commonTitle">
-      <span>我们的愿景</span>
-      <div class="commonSubTitle">
-        超能小象的愿景是普及少儿编程的同时培养国际化视野人才，让我们的孩子将来走出国门也能不落人后。
+        </div>
+        <div class="imgBox">
+          <ul class="innerImgBox">
+            <li class="leftImg">
+              <div>
+                <div class="boxImgOne">
+                  <img src="../img/teacher.jpg" alt="" class="imgSize" />
+                </div>
+                <div class="boxImgTwo">
+                  <img src="../img/teacher.jpg" alt="" class="imgSize" />
+                </div>
+                <div class="boxImgThree">
+                  <img src="../img/teacher.jpg" alt="" class="imgSize1" />
+                </div>
+              </div>
+            </li>
+            <li class="rightImg">
+              <div>
+                <div class="boxImgFour">
+                  <img src="../img/teacher.jpg" alt="" class="imgSize1" />
+                </div>
+                <div class="boxImgFive">
+                  <img src="../img/teacher.jpg" alt="" class="imgSize" />
+                </div>
+                <div class="boxImgSix">
+                  <img src="../img/teacher.jpg" alt="" class="imgSize" />
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
-  <!-- /.愿景 -->
+    <!-- /.师资 -->
 
-  <!-- 合作 -->
-  <div class="row content1">
-    <div class="commonTitle">
-      <span>我们的合作</span>
-      <div class="commonSubTitle">
-        超能小象少儿编程背靠峰悦教育集团（IHD）。该集团公司遍布广深珠三地，有着丰富的国际化教育背景。超能小象作为全国唯一一家中英双语教学的少儿编程教育机构，拥有国际化教育资源为其保驾护航。
+    <!-- 合作 -->
+    <div class="row content1">
+      <div class="commonTitle">
+        <span>我们的合作</span>
+        <div class="commonSubTitle">
+          超能小象少儿编程背靠峰悦教育集团（IHD）。该集团公司遍布广深珠三地，有着丰富的国际化教育背景。超能小象作为全国唯一一家中英双语教学的少儿编程教育机构，拥有国际化教育资源为其保驾护航。
+        </div>
       </div>
     </div>
-  </div>
-  <!-- /.模式 -->
+    <!-- /.模式 -->
 
-  <!-- FOOTER -->
-  <footer class="footerBox">
-    <p style="padding-top: 150px;">
-      &copy; 2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot;
-      <a href="#">Terms</a>
-    </p>
-  </footer>
-
+    <!-- FOOTER -->
+    <footer class="footerBox">
+      <p style="padding-top: 150px;">
+        &copy; 2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot;
+        <a href="#">Terms</a>
+      </p>
+    </footer>
 
     <!-- Include javascript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="../static/assets/js/jquery.min.js"></script>
     <script src="../static/assets/js/holder.min.js"></script>
 
     <script src="../static/assets/js/bootstrap.js"></script>
     <script src="../static/assets/js/bootstrap.min.js"></script>
     <script src="../static/assets/js/npm.js"></script>
+    <script src="../static/assets/js/main.js"></script>
     <!-- end javascript -->
   </body>
 </html>
