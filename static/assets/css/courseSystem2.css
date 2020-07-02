@@ -1,0 +1,277 @@
+* {
+  box-sizing: border-box;
+}
+
+header,
+section {
+  overflow: hidden;
+}
+
+:root {
+  --Snigle-font: ;
+}
+
+header a {
+  font-size: 2em;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+header {
+  background: #fdf1f4;
+  background: -webkit-linear-gradient(top, #fdf1f4 0%, #ecedf6 100%);
+  background: linear-gradient(to bottom, #fdf1f4 0%, #ecedf6 100%);
+}
+
+header .nav-item:last-child {
+  padding-right: 10.5em;
+}
+
+header .nav-item {
+  padding: 0.9em;
+}
+
+header .navbar-brand {
+  padding-left: 8rem;
+}
+
+header .nav-link:hover {
+  color: black;
+}
+
+header .navbar-nav > .active > a,
+header .navbar-nav > .active > a:hover,
+header .navbar-nav > .active > a:focus {
+  color: black;
+  border-bottom-color: black;
+}
+
+header .row .col-md-5 {
+  padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-7 {
+  padding: 5vmin 1vmin;
+  padding-bottom: 10vmin;
+}
+
+header .row .col-md-7 img {
+  width: 90%;
+}
+
+header .container .col-md-5 h3 {
+  padding: 1vmin;
+  letter-spacing: 8px;
+}
+
+header .container .col-md-5 h1 {
+  font-size: 4.5vmin;
+  font-weight: bold;
+  padding: 0.1em 0em;
+}
+
+header .container .col-md-5 p {
+  padding: 1vmin 5vmin;
+}
+
+header .container .col-md-5 button {
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+/* section 1*/
+.section-1 {
+  padding: 20vmin 0;
+}
+
+.section-1 .row .col-md-6 .teacher img {
+  opacity: 0.8;
+  width: 80%;
+  height: 600px;
+  border-radius: 0.2em;
+}
+
+.section-1 .row .col-md-6:last-child {
+  position: relative;
+}
+
+.section-1 .row .col-md-6 .panel {
+  position: absolute;
+  top: 7vmin;
+  left: -18vmin;
+  background: white;
+  border-radius: 3px;
+  text-align: left;
+  padding: 13vmin 5vmin 20vmin 10vmin;
+  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.section-1 .row .col-md-6 .panel h1 {
+  font-weight: bold;
+  padding: 0.4em 0;
+  font-size: 2em;
+}
+
+.section-1 .row .col-md-6 .panel p {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/*section 2 */
+
+.cover {
+  width: 100%;
+  height: 55vmin;
+  background: url("../../../img/children-593313_1920_header_code_it_studio.jpg");
+  background-position: -24rem -19rem;
+  background-size: 150%;
+  position: relative;
+}
+
+.cover .content {
+  background: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+  padding-top: 19vmin;
+}
+
+.cover .content > h1 {
+  font-size: 6vmin;
+  color: whitesmoke;
+}
+
+.cover .content > p {
+  font-size: 3.5vmin;
+  color: #e5e5e5;
+}
+
+.levels .rect {
+  position: relative;
+  z-index: 1;
+  background: white;
+  width: 10rem;
+  height: 12rem;
+  padding-top: 3.5vmin;
+  margin: 1rem;
+  border-radius: 2em;
+  box-shadow: 1px 2px 50px 0px rgba(0, 0, 0, 0.2);
+}
+
+.levels {
+  margin-top: 2vmin;
+}
+
+.levels .rect h1 {
+  font-size: 5rem;
+}
+
+.purchase > h1 {
+  padding-top: 15vmin;
+  padding-bottom: 0.1em;
+}
+
+.purchase > p {
+  font-size: 3vmin;
+  padding-bottom: 10vmin;
+}
+
+.purchase .courses .card {
+  width: 22rem;
+  margin: 3vmin;
+}
+
+.courses div {
+  padding: 0;
+  margin: 0;
+}
+
+.courses .title {
+  background: rgba(208, 241, 241, 0.1);
+  padding: 1.4rem 2.5rem;
+  font-size: 2vmin;
+}
+
+.card .card-text {
+  padding: 2.5rem 3rem;
+  color: black;
+}
+
+/*section 3*/
+
+.section-3 {
+  margin-top: 15vmin;
+  background: #fdf1f4;
+  background: -webkit-linear-gradient(top, #fdf1f4 0%, #ecedf6 100%);
+  background: linear-gradient(to bottom, #fdf1f4 0%, #ecedf6 100%);
+}
+
+.section-3 .col-md-12 > h1 {
+  padding: 2em 0 0.5em 0;
+  color: black;
+  font-size: 6vmin;
+}
+
+.section-3 .col-md-12 > p {
+  padding: 0 4em;
+  padding-bottom: 2em;
+  color: black;
+  font-size: 3vmin;
+}
+
+.section-3 .row .col-md-12 .panel {
+  top: 7vmin;
+  background: white;
+  border-radius: 3px;
+  text-align: center;
+  padding: 2em 0 0.5em 0;
+  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+  margin: 100px 50px;
+  z-index: 1;
+}
+
+.section-3 .row .col-md-12 .panel h1 {
+  font-weight: bold;
+  padding: 0.4em 0;
+  font-size: 2em;
+}
+
+.section-3 .row .col-md-12 .panel p {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/*section 4*/
+.section-4 .container h1 {
+  font-size: 6vmin;
+  padding-top: 14vmin;
+}
+
+.section-4 .team {
+  padding: 10vmin 4vmin;
+}
+
+.section-4 .card {
+  width: 30rem;
+  margin-top: 10vmin;
+}
+
+.section-4 .card .card-text {
+  padding: 0.5em;
+}
+
+.section-4 .carousel-item {
+  padding-left: 3rem;
+}
+/** footer**/
+.footerBox {
+  height: 300px;
+  background-color: #333333;
+}
+
+/*Sticky class */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(112, 110, 110, 0.815);
+  z-index: 9999;
+  transition: all 1.5s ease;
+}
