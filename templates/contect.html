@@ -8,31 +8,141 @@
 <title>Bootstrap Template</title>
 
 <!-- Bootstrap core CSS -->
-<link rel="stylesheet" href="static/assets/css/bootstrap.min.css">
-<link rel="stylesheet" href="static/assets/css/bootstrap-theme.css">
+<link rel="stylesheet" href="../static/assets/css/bootstrap.css" />
+
 <!-- Custom styles for this template -->
-<link rel="stylesheet" href="../static/assets/css/cover.css" >
+<link rel="stylesheet" href="../static/assets/css/carousel.css" />
+<link rel="stylesheet" href="../static/assets/css/cover.css" />
+<link rel="stylesheet" href="../static/assets/css/about.css" />
+<link rel="stylesheet" href="../static/assets/css/navbar.css" />
 </head>
 
 <body>
-  <div class="navbar-wrapper">
+  <nav class="navbar navbar-modified navbar-fixed-top">
     <div class="container">
-      <div class="masthead clearfix">
-        <div class="inner">
-          <h3 class="masthead-brand">超级小象</h3>
-          <nav>
-            <ul class="nav masthead-nav">
-              <li><a href="index.html">首页</a></li>
-              <li><a href="course.html">课程</a></li>
-              <li><a href="about.html">选择我们</a></li>
-              <li class="active"><a href=".">联系我们</a></li>
-            </ul>
-          </nav>
-        </div>
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">超能小象</a>
+        <button
+          type="button"
+          class="navbar-toggle"
+          data-toggle="collapse"
+          data-target="#example-navbar-collapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="sr-only">切换导航</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div
+        class="collapse navbar-collapse pull-right"
+        id="example-navbar-collapse"
+      >
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">首页</a></li>
+            <li><a href="course.html">课程</a></li>
+            <li><a href="teachers.html">师资力量</a></li>
+            <li><a href="about.html">选择我们</a></li>
+            <li class="active"><a href="contect.html">联系我们</a></li>
+        </ul>
       </div>
     </div>
-  </div>
+  </nav>
 
+  <div class="row headingBox">
+    <h1>超能小象 带你飞翔</h1>
+    <p style="padding-top: 20px;">
+      如果您想了解任何信息，请及时联系我们。
+    </p>
+    <div class="intor">
+      <div class="col-lg-4 col-md-4 col-sm-4" >
+        <img
+          class="img-circle"
+          src="../img/图层 6.png"
+          alt="Generic placeholder image"
+          width="140"
+          height="140"
+        />
+        <h2>五洲校区（子鱼星学院五洲校区）</h2>
+        <p>
+          地址：香洲区山场路五洲世派街39号中国工商银行2层</br>
+          电话：0756-2688363
+        </p>
+        <p>
+          <a class="btn btn-default" href="#" role="button"
+            >View details &raquo;</a
+          >
+        </p>
+      </div>
+      <!-- /.col-lg-4 -->
+
+      <div class="col-lg-4 col-md-4 col-sm-4 containerHeading">
+        <img
+          class="img-circle"
+          src="../img/图层 6.png"
+          alt="Generic placeholder image"
+          width="140"
+          height="140"
+        />
+        <h2>华发校区（优学堂）</h2>
+        <p>
+          地址：南屏南湾北路32号V12文化创意产业园一号楼4层（容闳书院旁）</br>
+          电话：0756-8822829
+
+        </p>
+        <p>
+          <a class="btn btn-default" href="#" role="button"
+            >View details &raquo;</a
+          >
+        </p>
+      </div>
+      <!-- /.col-lg-4 -->
+      <div class="col-lg-4 col-md-4 col-sm-4 containerHeading">
+        <img
+          class="img-circle"
+          src="../img/图层 6.png"
+          alt="Generic placeholder image"
+          width="140"
+          height="140"
+        />
+        <h2>唐家湾校区（信息港）</h2>
+        <p>
+          地址：香洲区金唐东路88号信息港D栋1204</br>
+          电话：1752028987
+
+        </p>
+        <p>
+          <a class="btn btn-default" href="#" role="button"
+            >View details &raquo;</a
+          >
+        </p>
+      </div>
+      <!-- /.col-lg-4 -->
+    </div>
+  </div>
+  <!-- /.row -->
+
+
+
+  <!-- FOOTER -->
+  <footer class="footerBox">
+    <p style="padding-top: 150px;">
+      &copy; 2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot;
+      <a href="#">Terms</a>
+    </p>
+  </footer>
+
+  <!-- Include javascript -->
+  <script src="../static/assets/js/jquery.min.js"></script>
+  <script src="../static/assets/js/holder.min.js"></script>
+
+  <script src="../static/assets/js/bootstrap.js"></script>
+  <script src="../static/assets/js/bootstrap.min.js"></script>
+  <script src="../static/assets/js/npm.js"></script>
+  <script src="../static/assets/js/main.js"></script>
+  <!-- end javascript -->
 </body>
 
 </html>

@@ -51,10 +51,10 @@
   background-color: #888;
 }
 .navbar-modified .navbar-collapse,
-.navbar-modified .navbar-form {
-  
+.navbar-modified .navbar-form { 
   border-color: transparent;
 }
+
 .navbar-modified .navbar-nav > .open > a,
 .navbar-modified .navbar-nav > .open > a:hover,
 .navbar-modified .navbar-nav > .open > a:focus {
